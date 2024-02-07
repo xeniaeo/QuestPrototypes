@@ -1,0 +1,24 @@
+#project specific exclusions
+#
+#
+# NodeJS installed files (take up a lot of room, but are easily replaced with npm install)
+[Tt]ools/node-dss-master/node_modules/*
+
+# generated when exporting a stand alone build
+/[Aa]ssets/[Ss]cripts/BuildTimestamp.asset
+/[Aa]ssets/[Ss]cripts/BuildTimestamp.asset.meta
+
+/[Aa]ssets/[Rr]esources/LocalConfi*.asset
+/[Aa]ssets/[Rr]esources/LocalConfi*.asset.meta
+/[Aa]ssets/[Ss]treamingAssets/LocalConfi*.*.meta
+/[Aa]ssets/[Ss]treamingAssets/LocalConfi*.*
+/[Aa]ssets/[Ss]treamingAssets/LocalConfi*.meta
+/[Aa]ssets/[Ss]treamingAssets/LocalConfi*
+
+EventLog_*.*
+Messages.json
+
+
+#C4D asset backups
+*.bak
+*.bak?
